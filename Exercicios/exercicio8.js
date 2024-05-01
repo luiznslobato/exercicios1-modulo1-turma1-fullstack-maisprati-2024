@@ -1,17 +1,17 @@
 //8. Escreva um algoritmo para ler 2 valores 
 //(considere que não serão lidos valores iguais) e escreve-los em ordem crescente.
 
-let valorUm = 140
-let valorDois = 20
-let menorValor;
-let maiorValor;
+let prompt = require('prompt-sync')()
 
-if (valorUm < valorDois) {
-    menorValor = valorUm
-    maiorValor = valorDois
+let valor1 = Number(prompt("Defina o primeiro valor: "))
+let valor2 = Number(prompt("Defina o segundo valor: "))
 
-} else {
-    menorValor = valorDois
-    maiorValor = valorUm
+if (valor1 !== valor2) {
+
+    if (valor1 > valor2) {
+        console.log(valor2, ",", valor1)
+
+    } else {
+        console.log(valor1, ",", valor2)
+    }
 }
-console.log(menorValor, maiorValor)
