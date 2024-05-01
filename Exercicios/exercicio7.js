@@ -2,12 +2,18 @@
 //forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
 //compradas, calcule e escreva o valor total da compra.
 
-let macasCompradas = 12
-let valorTotal = 0
+let prompt = require('prompt-sync')()
 
-if (macasCompradas < 12) {
-    valorTotal = macasCompradas * (0.30)
+let macas = parseInt(prompt("Defina a quantidade de maças compradas: "))
+let preco = 0
+
+if (macas >= 12) {
+
+    preco = macas * 0.25
+
 } else {
-    valorTotal = macasCompradas * (0.25)
+    preco = macas * 0.30
 }
-console.log('R$' + valorTotal)
+preco = preco.toFixed(2)
+
+console.log(`Quantidade de maças compradas: ${macas}. Valor total da compra: R$${preco}`)
