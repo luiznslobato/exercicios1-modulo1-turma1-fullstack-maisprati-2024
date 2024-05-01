@@ -3,7 +3,9 @@
 //Código de Origem: 1 - Sul, 2 - Norte, 3 - Leste, 4 - Oeste, 5 ou 6 - Nordeste, 7, 8 ou 9 - Sudeste,
 // 10 até 20 - Centro-Oeste, 25 até 50 - Nordeste, fora do intervalo - produto importado.
 
-let codigoDeOrigem = 0
+let prompt = require('prompt-sync')()
+
+let codigoDeOrigem = parseInt(prompt("Defina o código de origem do produto: "))
 
 if (codigoDeOrigem === 1) {
     console.log('Sul')
