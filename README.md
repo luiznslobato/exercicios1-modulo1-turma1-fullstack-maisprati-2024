@@ -4,7 +4,7 @@
 
 1. Clone o repositório para o seu computador;
 2. Navegue até a pasta raiz onde esão localizados os arquivos ".js";
-3. Abra o terminal e use o comando `node nomedoarquivo.js`para excutar os códigos.
+3. Abra o terminal e use o comando `node nomedoarquivo.js` para excutar os códigos.
 
 #### Exercícios que contemplam as operações fundamentais, estruturas de controle condicional e de repetição:
 
