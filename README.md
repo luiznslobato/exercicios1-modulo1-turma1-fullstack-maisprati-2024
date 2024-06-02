@@ -1,12 +1,10 @@
-## Lista de Exercícios 1 | M1 T1 Full Stack +praTi 2024
+## Lista de Exercícios 01 | Dev Full Stack +praTi 2024
 
 #### Como configurar e executar os exercícios localmente:
 
-1. Faça um fork do repositório;
-2. Clone o repositório para o seu computador;
-3. No VScode abra o terminal na pasta `.../Exercicios`;
-4. Execute o comando `npm install prompt-sync`;
-5. Para testar os códigos dos arquivos pelo terminal use o comando `node nomedoarquivo.js`.
+1. Clone o repositório para o seu computador;
+2. Navegue até a pasta raiz onde esão localizados os arquivos ".js";
+3. Abra o terminal e use o comando `node nomedoarquivo.js`para excutar os códigos.
 
 #### Exercícios que contemplam as operações fundamentais, estruturas de controle condicional e de repetição:
 
